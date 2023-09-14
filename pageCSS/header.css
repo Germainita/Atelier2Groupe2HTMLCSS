@@ -1,0 +1,122 @@
+:root{
+    --coleurFond: white;
+    --coleurSection: #EEEEEE;
+    --coleurfondImage: rgb(249, 246,246);
+    --couleurheader: #f46a58;
+    --coleurfondImage: rgb(249, 246, 246);
+    
+    --gray: #E1E1E1;
+    --white: white;
+    --black: black;
+    --grey: #e7e7e7;
+}
+
+body{
+    background-color: var(--coleurFond);
+    /* width: 1000px; */
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Stylisation page d'accueil */
+
+/* Stylisation section menu  */
+.firstMenu{
+    display: flex;
+    background-color: #505050;
+    width: 100%;
+}
+
+img{
+    width: 19%;
+    margin-left: 60px;
+}
+
+.mesIcones{
+    display: flex;
+}
+
+.recherche{
+    margin: 20px;
+    margin-right: 20px;
+    margin-left: -10px;
+}
+.recherche input{
+    width: 350px;
+    height: 5vh;
+}
+
+.recherche .iconeRecherche{
+    color: var(--couleurheader);
+    margin-top: -10px;
+    margin-left: -45px;
+}
+
+.sectionAutreIcone{
+    display: flex;
+    margin: 30px;
+     
+}
+
+.sectionAutreIcone a{
+    text-decoration: none;
+}
+
+.sectionAutreIcone .autreIcone{
+    margin-right: 5px;
+}
+
+
+.sectionAutreIcone .icone{
+    margin-right: 5px;
+    color: var(--couleurheader);
+}
+
+.sectionAutreIcone .iconeUser{
+    margin-right: 12px;
+}
+
+.sectionAutreIcone .textIcone, .textIcone1{
+    color: white;
+}
+
+.sectionAutreIcone .textIcone1{
+    border-right: 2px solid white;
+    padding: 0 10px;
+}
+
+/* Stylisation deuxieme menu  */
+
+.secondMenu{
+    margin-top: 15px;
+    margin-left: 90px;
+    display: flex;
+}
+
+.secondMenu a{
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.secondMenu .iconeChevron{
+    margin-left: -45px;
+    color: var(--couleurheader);
+}
+
+.secondMenu .accueil{
+    margin-left: 65px;
+}
+
+.secondMenu .perso a{
+    border: 1px solid var(--couleurheader);
+    text-align: center;
+    padding: 15px 10px;
+    background-color: var(--couleurheader);
+    color: white;
+}
+
+/* Fin section menu  */

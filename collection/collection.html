@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="header.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .desc{
+           display: flex;
+           height: 88%;
+           align-items: center;
+           margin-top: 15%;
+           margin-left: 8%;
+        }
+        .texte{
+            flex-basis: 50%;
+        }
+
+        h1{
+            font-size: 85px;
+        }
+        .texte p{
+            font-size: 17px;
+        
+        }
+        button{
+            width: 180px;
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            padding: 12px 0;
+            background: #F46A58;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            margin-top: 30px;
+        }
+        .colonne{
+            margin-left: 60%;
+            margin-top: -24%;
+        }
+        .sagnsee{
+            width: 200px;
+            height: 230px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            background-image: url(https://img.freepik.com/photos-premium/canape-bleu-velours-dans-piece-sombre-decoration-interieure_172420-505.jpg);
+            background-position: center;
+            background-size: cover;
+            transition: transform 0.5s;
+        }
+        .lnc2{
+            background-image: url(https://i.etsystatic.com/27079773/r/il/78855b/4069524714/il_300x300.4069524714_c8ar.jpg);
+        }
+        .lnc3{
+            background-image: url(https://images.news18.com/ibnlive/uploads/2022/03/watch-series-3-apple-16479510474x3.jpg);
+        }
+        .lnc4{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvOuPRSSgVZJHCgrX2X6D0a3DQO2b2zpLNKNj-a3KSnAw9m3Roe3zatK3lWwvxML0N5E8&usqp=CAU);
+        }
+        .sagnsee:hover{
+            transform: translateY(-10px);
+        }
+        h5{
+            color: #fff;
+            text-shadow: 0 0 15px #999;
+        }
+        .colonne p {
+            color: #fff;
+            text-shadow: 0 0 15px #999;
+            font-size: 8px;
+        }
+
+        
+        .plus a{
+            color: black;
+            margin-left: 1250px;
+            border: 1px solid #F46A58;
+            background-color: #F46A58;
+            border-radius: 10px;
+            width: 20px;
+            padding: 5px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .collection{
+            text-decoration: underline var(--couleurheader);
+    
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Partie entete -->
+    <header>
+        <!-- Debut premier menu  -->
+        <div class="firstMenu">
+            <div class="logo">
+                <img src="logoo.png" alt="">
+            </div>
+            <div class="mesIcones">
+                <div class="recherche">
+                    <input type="text" placeholder="Rechercher des produits" readonly=""><span class="iconeRecherche"><i
+                            class="bi bi-search"></i></span>
+                </div>
+    
+                <div class="sectionAutreIcone">
+                    <div class="panier autreIcone">
+                        <a href="../panier/panier.html"><span class="icone"><i class="fas fa-shopping-cart"></i></span></a>                    
+                        <span class="textIcone1">Panier</span>
+                    </div>
+                    <div class="favoris autreIcone">
+                        <a href="#"><span class="icone"><i class="fas fa-heart"></i></span></a>
+                        <span class="textIcone1">Favoris</span>
+                    </div>
+                    <div class="user autreIcone">
+                        <a href="../connexion/connexion.html"><span class="icone iconeUser"><i class="fas fa-user"></i></span></a>
+                        <span class="textIcone">Se connecter</span>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+        <!-- Fin premier menu  -->
+    
+        <!-- Debut deuxieme menu  -->
+    
+        <div class="secondMenu">
+            <div class="cat">
+                <span class="cat"><a href="toutesCategorie/toutesCategorie.html">TOUTES LES CATEGORIES</a></span><span class="iconeChevron"><i class="bi bi-chevron-down"></i></span>
+            </div>
+
+            <div class="accueil">
+                <a href="../accueil/accueil.html">ACCUEIL</a>
+            </div>
+
+            <div>
+                <a href="../galerie/galerie.html">GALERIE</a>
+            </div>
+
+            <div>
+                <a href="../metiers/index.html">METIERS</a>
+            </div>
+
+            <div>
+                <a href="../contact/contact.html">CONTACT</a>
+            </div>
+
+            <div class="boutique">
+                <a href="../boutiques/boutique.html">BOUTIQUES</a>
+            </div>
+
+            <div>
+                <a href="../collection/collection.html">COLLECTION</a>
+            </div>
+
+            <div class="perso">
+                <a href="#" >ESPACE-PERSO</a>
+            </div>
+        </div>
+        <!-- Fin deuxieme menu  -->
+    
+    </header>
+
+    <div class="desc">
+        <div class="texte">
+            <h1>COLLECTIONS</h1>
+            <p>Vous trouvez ci-côté le luxe de nos produits de qualité à coupée le souffle</p>
+            <button>Explorer</button>
+        </div>
+    </div>
+
+    <div class="colonne">
+        <div class="sagnsee lnc1">
+            <h5>FAUTEUIL</h5>
+            <p>Découvrer toutes notre collection de salon</p>
+        </div>
+        <div class="sagnsee lnc2">
+            <h5>ROBE</h5>
+            <p>Découvrer toutes notre collection de robe</p>
+        </div>
+        <div class="sagnsee lnc3">
+            <h5>MONTRE LUXUEUSE</h5>
+            <p>Découvrer toutes notre collection de montre</p>
+        </div>
+        <div class="sagnsee lnc4">
+            <h5>CHAUSSURES</h5>
+            <p>Découvrer toutes notre collection de chaussure</p>
+        </div>
+    </div>
+    <br>
+    <p class="plus"><a href="">Voir-plus</a></p>
+
+    <footer>
+    
+        <div class="foot">
+            <div class="logo">
+                <h2>LOGO</h2>
+    
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-youtube"></i>
+                <i class="fa-brands fa-square-google-plus"></i>
+            </div>
+    
+            <div class="pages">
+                <h3>PAGES</h3>
+                <ul>
+                    <li>Espace perso</li>
+                    <li>A propos</li>
+                    <li>Contact </li>
+                    <li>Promotion</li>
+                </ul>
+            </div>
+            <div class="pages">
+                <h3>POLICY</h3>
+                <ul>
+                    <li>Terms of Usage</li>
+                    <li>Privacy Policy</li>
+                    <li>Return Policy </li>
+                </ul>
+            </div>
+            <div class="pages">
+                <h3>CATEGORIES</h3>
+                <ul>
+                    <li>Accesoires et Mode</li>
+                    <li>Artistes et peintre</li>
+                    <li>Décorateur intérieur </li>
+                    <li>Menuisier & Tapissier</li>
+                    <li>Sculpteur de bois et bronze</li>
+                </ul>
+            </div>
+            <div class="inscrit">
+                <h3>S'INSCRIRE</h3>
+                <p>Abonnez vous à notre newsletter pour etre le premier informé des <br> nouvelles offres et promotions </p>
+                <div class="input">
+                    <input type="text" placeholder="Enter Email Address">
+                    <input type="button" value="S'INSCRIRE">
+                </div>
+            </div>
+        </div>
+        </div>
+    
+    </footer>
+
+</body>
+</html>

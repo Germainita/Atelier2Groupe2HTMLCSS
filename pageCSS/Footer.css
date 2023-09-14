@@ -1,0 +1,79 @@
+footer{
+    width: 100%;
+    height:300px;
+    background-color:  rgb(65, 65, 65);;
+}
+
+.foot{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height:300px;
+    background-color: rgb(65, 65, 65); 
+    margin: 100px auto;
+    padding: 30px 70px 30px 70px;
+    color: white;
+}
+
+.pages h3{
+    margin-left: 40px;  
+    
+}
+.pages ul li{
+    display: block;
+    margin-bottom: 20px;
+    list-style: none;
+    width: 180px;
+}
+.pages :last-child{
+    margin-right: -20px;
+    
+}
+.pages :nth-child(2){
+    margin-right: -190px;
+    
+}
+.inscrit p{
+    width: 350px;
+    margin-left: 30px;
+
+}
+.inscrit h3{
+    margin-left: 30px;
+}
+.input{
+    display: flex;
+
+    
+}
+input{
+    margin-left: 30px;
+    width:250px;
+    height: 25px; 
+    border: 1px solid #000;   
+}
+input::placeholder{
+    color:black
+}
+
+
+input[type='button'] {
+    height: 28px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    margin-left: 0px;
+    
+}
+i{
+    font-size: 15px;
+   
+}
+.logo ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}

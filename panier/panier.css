@@ -1,0 +1,66 @@
+
+h3 { 
+    text-align: center;
+}
+.Panier{
+    display: flex;
+    justify-content: center;
+}
+.produits{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    
+}
+.produits img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #f45a58;
+    border-radius: 10px;
+    
+}
+.ajouter i p {
+    color:black;
+    font-size: 14px;
+}
+
+.btn{
+    padding-top: 10px;
+}
+.ligne1{
+    margin-right: 50px;
+}
+.ajouter{
+    display: flex;
+    margin-top : 10px
+}
+.ajouter i{
+font-size: 40px;
+position: relative;
+left:1010px;
+}
+.bloc i {
+    border-color: #f45a58;
+}
+.bloc p {
+    margin-top: 9px;
+    
+}
+
+#valider{
+    background-color: #f45a58;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: -160px;
+
+}

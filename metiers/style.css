@@ -1,0 +1,114 @@
+.header{
+}
+h4 {
+    text-align: center;
+    /* background-color: #F46A58; */
+    color: black;
+    margin-top: 0px;
+}
+.titretexte{
+    font-weight: bold;
+    
+
+}
+p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.metier{
+    /* background-color: #F46A58; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    width: 18%;
+    height: 50%;
+    padding: 20px;
+    margin: 10px 30px;
+}
+.classemetier{
+    display: flex;
+    justify-content: space-between;
+}
+    
+   
+.artisanat{
+    background-color: #E2E2E2;
+    margin: 10px 7px;
+    width: 80%;
+    height: 50%;
+    padding: 30px;
+    /* border-radius: 20px; */
+}  
+img.art{
+    width: 220px;
+    border-radius: 20px;
+    margin-left: -2px;
+    transition: all 1s ease;
+}
+img.art:hover{
+    transform: scale(1.25);
+}
+img.bijou{
+    width: 220px;
+    height: 215px;
+    border-radius: 20px;
+    margin-left: -2px;
+    transition: all 1s ease;
+}
+img.bijou:hover{
+    transform: scale(1.25);
+}
+
+img.stylisme{
+    width: 220px;
+    height: 215px;
+    border-radius: 20px;
+    margin-left: -2px;
+    transition: all 1s ease;
+}
+img.stylisme:hover{
+    transform: scale(1.25);
+}
+img.commerce{
+    width: 220px;
+    height: 215px;
+    border-radius: 20px;
+    margin-left: -2px;
+    transition: all 1s ease;
+}
+img.commerce:hover{
+    transform: scale(1.25);
+}
+
+.text{
+   background-color: #E2E2E2;
+   width: 100%;
+   margin-top: 2px;
+   margin-right: 50px;
+   border-radius: 20px;
+   border: 1px solid black;
+   
+}
+.titretext{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.text p{
+    margin-left: 10px;
+    margin-top: -1px;
+    font-size: 13px;
+}
+.artisanat button{
+    background-color: #F46A58;
+    color: white;
+    width: 50%;
+    height: 25px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+/* .footer{
+} */

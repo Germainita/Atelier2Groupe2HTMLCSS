@@ -1,0 +1,141 @@
+:root{
+    --coleurFond: white;
+    --coleurSection: #EEEEEE;
+    --coleurfondImage: rgb(249, 246,246);
+    --couleurheader: #f46a58;
+    --coleurfondImage: rgb(249, 246, 246);
+    
+    --gray: #E1E1E1;
+    --white: white;
+    --black: black;
+    --grey: #e7e7e7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    width: 1000px;
+    /* height: 75vh; */
+    margin-top: 60px;
+    /* border: 1px solid #f9b2a8; */
+}
+.inscriptionContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+ .sectionConnection1 img{
+    width: 100%;
+    height: 115vh;   
+}
+
+.textImage{
+    position: absolute;
+    text-align: center;
+    margin-top: -460px;
+    color: white;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.textImage .logo{
+    font-size: 50px;
+    color: white;
+}
+
+.textImage p{
+    font-size: 30px;
+    color: var(--couleurheader);
+
+}
+
+
+.sectionConnection2{
+    padding: 20px 40px;
+    /* padding-top: 60px; */
+}
+
+.inscriptionAvecReseau p{
+    margin: 20px;
+}
+.inscriptionAvecReseau img {
+    width: 20px;
+    height: 20px;
+}
+
+.inscriptionAvecReseau .textIconne{
+    font-size: 22px;
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.or{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid var(--couleurheader);
+}
+
+form {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+form input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px ;
+    width: 100%;
+    height: 5vh;
+    
+}
+
+::placeholder{
+    padding: 10px;
+}
+
+.obligatoire{
+    color: #f46a58;
+}
+
+form #mdpOublié{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+button{
+    /* margin: 0 120px; */
+    width: 150px;
+    height: 5vh;
+    border: none;
+    background-color: var(--couleurheader);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    /* margin-top: 20px; */
+    margin: 5% 30%;
+
+}
+
+form #inscription{
+    float: right;
+    text-decoration: underline var(--couleurheader);
+    color: var(--couleurheader);
+    /* font-size: 23px; */
+    margin-top: 5px;
+}
+
+form a{
+    /* font-size: 23px; */
+    color: black;
+}

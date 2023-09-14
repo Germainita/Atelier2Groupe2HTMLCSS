@@ -1,0 +1,74 @@
+:root{
+    --coleurFond: white;
+    --coleurSection: #EEEEEE;
+    --coleurfondImage: rgb(249, 246,246);
+    --couleurheader: #f46a58;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .toutesCategorie{
+} */
+
+.toutesCategorie img{
+    width: 105%;
+    height: 350px;
+    margin-left: -40px;
+    margin-top: 8px;
+    border: none;
+}
+
+.toutesCategorie p{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    left: 10px;
+}
+
+/* .accessoire{
+
+} */
+
+.gridCategorie{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 5px;
+    margin-left: 75px;
+}
+.gridCategorie img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+.gridCategorie .titre{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gridCategorie .prix{
+    color: var(--couleurheader);
+}
+
+.propos p{
+    width: 100%;
+    
+}
+.propos{
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.touteCategorie {
+    text-decoration: underline var(--couleurheader);
+    
+}
