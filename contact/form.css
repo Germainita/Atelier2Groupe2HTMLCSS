@@ -2,6 +2,10 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+.contact{
+    text-decoration: underline var(--couleurheader);
+}
+
 .form-container {
     width: 450px;
     border-radius: 0.75rem;
